@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="@color/teal_200">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="Bio Data"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/girl"></ImageView>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_margin="5dp"
+                android:background="#939393">
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name    : "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/name_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Nency"
+                        android:textColor="#FF5722"
+                        android:textSize="20dp">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="surname    : "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/surname_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp"
+                        android:text="Dabhi"
+                        android:textColor="#FF5722"
+                        android:textSize="20dp">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="Father name    : "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/father_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp"
+                        android:text="Vipulbhai"
+                        android:textColor="#FF5722"
+                        android:textSize="20dp">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="Mother name    : "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/mother_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp"
+                        android:text="Chhayaben"
+                        android:textColor="#FF5722"
+                        android:textSize="20dp">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="Age    : "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/age_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp"
+                        android:text="18"
+                        android:textColor="#FF5722"
+                        android:textSize="20dp">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="Cast    : "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/cast_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp"
+                        android:text="Hindu-Darji"
+                        android:textColor="#FF5722"
+                        android:textSize="20dp">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="Contect Number    : "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/phone_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="0866767867"
+                        android:textColor="#FF5722"
+                        android:textSize="20dp"></TextView>
+
+                    <ImageView
+                        android:id="@+id/call_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/call"></ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="Birth Date    : "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/birth_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp"
+                        android:text="10/10/2006"
+                        android:textColor="#FF5722"
+                        android:textSize="20dp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="Email    : "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/mail_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp"
+                        android:text="18"
+                        android:textColor="#FF5722"
+                        android:textSize="20dp">
+
+                    </TextView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="Hobbies: "
+                        android:textColor="@color/black"
+                        android:textSize="18dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/hobbies_txt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="Hindu-Darji"
+                        android:textColor="#FF5722"
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/hobbies_txt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Hindu-Darji"
+                        android:textColor="#FF5722"
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/hobbies_txt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Hindu-Darji"
+                        android:textColor="#FF5722"
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/hobbies_txt4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Hindu-Darji"
+                        android:textColor="#FF5722"
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/hobbies_txt5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Hindu-Darji"
+                        android:textColor="#FF5722"
+                        android:textSize="18dp">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="Gender    : "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/gender_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingTop="5dp"
+                        android:text="Female"
+                        android:textColor="#FF5722"
+                        android:textSize="20dp">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Address    : "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/address_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="801,Ashtapad-residency, killa-desai ni khdaki katargam, surat, 395004."
+                        android:textColor="#FF5722"
+                        android:textSize="20dp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Filed    : "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/filed_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="B.C.A"
+                        android:textColor="#FF5722"
+                        android:textSize="20dp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="State    : "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/state_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:text="Gujarat"
+                        android:textColor="#FF5722"
+                        android:textSize="20dp"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
